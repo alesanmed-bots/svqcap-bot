@@ -12,6 +12,7 @@ El bot puede ser desplegado por cualquiera para ofrecer el uso del mismo a su co
 1. Python 3.5 o superior.
 2. Paquete de Python [Telepot](http://telepot.readthedocs.io/en/latest/#)
 3. Paquete de Python [Selenium](selenium-python.readthedocs.io/installation.html)
+4. Paquete de Python [Requests](http://docs.python-requests.org/en/master/user/install/#install)
 
 **Procedimiento:**
 
