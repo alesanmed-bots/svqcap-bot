@@ -20,18 +20,20 @@ El bot puede ser desplegado por cualquiera para ofrecer el uso del mismo a su co
  - Descargar el código de este repositorio y colocarlo en una carpeta
  - Abrir el fichero config.ini y configurarlo de la siguiente manera:
 
-`    [DEFAULT]
-    phantomjs_path=Ruta/hasta/ejecutable/phantomjs.exe
+   ```
+   [DEFAULT]
+   phantomjs_path=Ruta/hasta/ejecutable/phantomjs.exe
 
-    [IITC]
-    mail = email de la cuenta de IITC a usar para las capturas
-    pass = contraseña de dicha cuenta
-    iitc_plugins = ["URL_Plugin_1", "URL_Plugin_2"] #No incluir la URL del plugin de IITC
-    plugins_config = [{"key": "iitc-base-map", "value": "Google Roads"}] #Claves y valores de las configuraciones de los plugins añadidos
+   [IITC]
+   mail = email de la cuenta de IITC a usar para las capturas
+   pass = contraseña de dicha cuenta
+   iitc_plugins = ["URL_Plugin_1", "URL_Plugin_2"] #No incluir la URL del plugin de IITC
+   plugins_config = [{"key": "iitc-base-map", "value": "Google Roads"}] #Claves y valores de las configuraciones de los plugins añadidos
 
-    [SCREEN] #Si modificas estos valores sin saber lo que haces puede que las capturas no salgan nítidas
-    width=1200
-    height=934`
+   [SCREEN] #Si modificas estos valores sin saber lo que haces puede que las capturas no salgan nítidas
+   width=1200
+   height=934
+   ```
 
  Un archivo config.ini de ejemplo se da a continuación:
 
