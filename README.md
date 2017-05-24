@@ -11,6 +11,7 @@ El bot puede ser desplegado por cualquiera para ofrecer el uso del mismo a su co
 **Pre-requisitos:**
 1. Python 3.5 o superior.
 2. Paquete de Python [Telepot](http://telepot.readthedocs.io/en/latest/#)
+3. Paquete de Python [Selenium](selenium-python.readthedocs.io/installation.html)
 
 **Procedimiento:**
 
